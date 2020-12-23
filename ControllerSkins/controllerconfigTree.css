@@ -1037,7 +1037,7 @@ strong {
 
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://imgur.com/JMacvAb.png);
+    background: url(https://imgur.com/pBkfGoH.png);
     object-fit: cover;
     height: 598px;
     width: 806px;
@@ -1112,10 +1112,13 @@ strong {
     position: absolute;
     left: 272px;
     top: 122px;
+    background: url(https://imgur.com/e43Qwtr.png) no-repeat center;
+    opacity: 0;
+    transition: opacity 0.1s;
 }
 
 .ds4 .touchpad.pressed {
-    background: url(https://imgur.com/OfGccNg.png) no-repeat center;
+  opacity: 1;
 }
 
 .ds4 .meta {
