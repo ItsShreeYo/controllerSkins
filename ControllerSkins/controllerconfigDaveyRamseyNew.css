@@ -1045,7 +1045,7 @@ strong {
 .controller.ds4 {
     background: url(https://imgur.com/VJVg9dX.png);
     object-fit: cover;
-    height: 600px;
+    height: 599px;
     width: 806px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
@@ -1242,7 +1242,7 @@ background-position: 0 -70px;
 .ds4 .stick {
     position: absolute;
     background: url(https://imgur.com/J73x3pE.png);
-    height: 96px;
+    height: 95px;
     width: 95px;
 }
 
