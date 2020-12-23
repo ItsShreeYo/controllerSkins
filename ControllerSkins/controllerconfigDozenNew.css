@@ -1194,12 +1194,12 @@ background-position: 0 -70px;
 .ds4 .button {
     position: absolute;
     width: 55px;
-    height: 55px;
+    height: 57px;
     background: url(https://imgur.com/meX9Ofr.png);
 }
 
 .ds4 .button.pressed {
-    background-position-y: 55px;
+    background-position-y: 57px;
     /* margin-top: 5px; */
 }
 
