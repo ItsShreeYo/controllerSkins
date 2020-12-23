@@ -1039,7 +1039,7 @@ strong {
 .controller.ds4 {
     background: url(https://imgur.com/yrdo1VI.png);
     object-fit: cover;
-    height: 598px;
+    height: 599px;
     width: 806px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
@@ -1236,7 +1236,7 @@ background-position: 0 -70px;
 .ds4 .stick {
     position: absolute;
     background: url(https://imgur.com/BClBzgr.png);
-    height: 94px;
+    height: 94.5px;
     width: 94px;
 }
 
@@ -1249,13 +1249,13 @@ background-position: 0 -70px;
 }
 
 .ds4 .stick.left {
-    top: 0;
+    top: 1px;
     left: 0;
 }
 
 .ds4 .stick.right {
     top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    left: calc(100% - 104px);
 }
 
 .ds4 .dpad {
