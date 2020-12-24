@@ -1039,7 +1039,7 @@ strong {
 .controller.ds4 {
     background: url(https://imgur.com/xUPNnSO.png);
     object-fit: cover;
-    height: 598px;
+    height: 599px;
     width: 806px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
@@ -1153,10 +1153,10 @@ background-position: 0 -70px;
 }*/
 .ds4 .arrows {
     position: absolute;
-    width: 352px;
+    width: 355px;
     height: 46px;
     top: 142px;
-    left: 227px;
+    left: 226px;
 }
 
 .ds4 .back, .ds4 .start {
@@ -1236,7 +1236,7 @@ background-position: 0 -70px;
 .ds4 .stick {
     position: absolute;
     background: url(https://imgur.com/ihAV2Bv.png);
-    height: 94px;
+    height: 95px;
     width: 94px;
 }
 
