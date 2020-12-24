@@ -1253,13 +1253,13 @@ background-position: 0 -70px;
 }
 
 .ds4 .stick.left {
-    top: 0;
-    left: 0;
+    top: 1;
+    left: -1;
 }
 
 .ds4 .stick.right {
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    top: calc(100% - 104px);
+    left: calc(100% - 106px);
 }
 
 .ds4 .dpad {
