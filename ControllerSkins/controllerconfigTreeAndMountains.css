@@ -1253,8 +1253,8 @@ background-position: 0 -70px;
 }
 
 .ds4 .stick.left {
-    top: 1;
-    left: -1;
+    top: 1px;
+    left: -1px;
 }
 
 .ds4 .stick.right {
