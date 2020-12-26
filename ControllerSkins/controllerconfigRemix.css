@@ -1186,17 +1186,17 @@ background-position: 0 -70px;
 
 .ds4 .abxy {
     position: absolute;
-    width: 170px;
-    height: 171px;
-    top: 209px;
-    left: 617px;
+    width: 230px;
+    height: 230px;
+    top: 179px;
+    left: 589px;
 }
 
 .ds4 .button {
     position: absolute;
     width: 115px;
     height: 115px;
-    background: url(https://imgur.com/0M7oFAI.png);
+    background: url(https://imgur.com/uk2IQD7.png);
 }
 
 .ds4 .button.pressed {
@@ -1212,20 +1212,24 @@ background-position: 0 -70px;
 }
 
 .ds4 .b {
-    background-position: -57px 0;
+    background-position: -115px 0;
     top: 50%;
     transform: translateY(-50%);
     right: 0px;
 }
 
 .ds4 .x {
-    background-position: -113px 0;
-    top: 58px;
+    background-position: -230px 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
 }
 
 .ds4 .y {
-    background-position: 55px 0;
-    left: 58px;
+    background-position: 115px 0;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .ds4 .sticks {
