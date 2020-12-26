@@ -172,6 +172,12 @@ strong {
     margin: 0 auto;
 }
 
+#gamepads {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
+
 .clear {
     clear: both;
     display: block;
