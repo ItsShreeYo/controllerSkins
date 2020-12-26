@@ -1054,17 +1054,17 @@ strong {
 }
 
 .ds4 .triggers {
-    width: 588px;
-    height: 90px;
+    width: 669px;
+    height: 171px;
     position: absolute;
-    left: 159px;
-    top: 50px;
+    left: 119px;
+    top: 10px;
 }
 
 .ds4 .trigger {
-    width: 99px;
+    width: 1799px;
     height: 100%;
-    background: url(https://imgur.com/BgdYAEN.png);
+    background: url(https://imgur.com/ler3qPT.png);
     opacity: 0;
 }
 
@@ -1074,7 +1074,7 @@ strong {
 
 .ds4 .trigger.right {
     float: right;
-    background-position-x: 99px;
+    background-position-x: 179px;
 }
 
 .ds4 .bumper {
