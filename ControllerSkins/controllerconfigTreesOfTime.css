@@ -1113,14 +1113,14 @@ strong {
     position: absolute;
     left: 292px;
     top: 142px;
-    background: url(https://imgur.com/EoP6e8D.png) no-repeat center;
+    background: url(https://imgur.com/gkDUYGl.png) no-repeat center;
     opacity: 0;
     transition: all 200ms ease;
 }
 
 .ds4 .touchpad.pressed {
     opacity: 1;
-    background: url(https://imgur.com/EoP6e8D.png) no-repeat center;
+    background: url(https://imgur.com/gkDUYGl.png) no-repeat center;
 }
 
 .ds4 .meta {
