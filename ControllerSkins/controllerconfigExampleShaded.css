@@ -1037,7 +1037,7 @@ strong {
 
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://imgur.com/64AhAKe.png);
+    background: url(https://imgur.com/67482FY.png);
     object-fit: cover;
     height: 599px;
     width: 806px;
@@ -1063,7 +1063,7 @@ strong {
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(https://imgur.com/3x4RoCx.png);
+    background: url(https://imgur.com/F9iE74C.png);
     opacity: 0;
 }
 
@@ -1079,7 +1079,7 @@ strong {
 .ds4 .bumper {
     width: 99px;
     height: 23px;
-    background: url(https://imgur.com/4VpZn1J.png) no-repeat;
+    background: url(https://imgur.com/Y3Gm5Dv.png) no-repeat;
     opacity: 0;
 }
 
@@ -1115,7 +1115,7 @@ strong {
 }
 
 .ds4 .touchpad.pressed {
-    background: url(https://imgur.com/PYkpEMz.png) no-repeat center;
+    background: url(https://imgur.com/6Ro5K6o.png) no-repeat center;
 }
 
 .ds4 .meta {
@@ -1127,7 +1127,7 @@ strong {
 }
 
 .ds4 .meta.pressed {
-    background: url(https://imgur.com/P39EQUz.png) no-repeat center;
+    background: url(https://imgur.com/ID9aATK.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -1160,7 +1160,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://imgur.com/ZwkdEck.png);
+    background: url(https://imgur.com/58kSPIe.png);
     width: 28px;
     height: 46px;
     opacity: 0;
@@ -1195,7 +1195,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://imgur.com/CmlxlGk.png);
+    background: url(https://imgur.com/NGM9E0V.png);
 }
 
 .ds4 .button.pressed {
@@ -1235,7 +1235,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://imgur.com/690Olg7.png);
+    background: url(https://imgur.com/cCkxjSt.png);
     height: 95px;
     width: 94px;
 }
@@ -1267,7 +1267,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(https://imgur.com/BADVT0K.png);
+    background: url(https://imgur.com/N2WO18c.png);
     position: absolute;
 }
 
