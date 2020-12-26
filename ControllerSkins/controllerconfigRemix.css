@@ -1088,8 +1088,8 @@ strong {
     position: absolute;
     width: 588px;
     height: 23px;
-    left: 109px;
-    top: 94px;
+    left: 159px;
+    top: 144px;
 }
 
 .ds4 .bumper.pressed {
@@ -1111,8 +1111,8 @@ strong {
     width: 262px;
     height: 151px;
     position: absolute;
-    left: 272px;
-    top: 122px;
+    left: 322px;
+    top: 172px;
 }
 
 .ds4 .touchpad.pressed {
@@ -1123,8 +1123,8 @@ strong {
     width: 42px;
     height: 42px;
     position: absolute;
-    left: 382px;
-    bottom: 216px;
+    left: 432px;
+    bottom: 266px;
 }
 
 .ds4 .meta.pressed {
@@ -1156,8 +1156,8 @@ background-position: 0 -70px;
     position: absolute;
     width: 352px;
     height: 46px;
-    top: 142px;
-    left: 227px;
+    top: 192px;
+    left: 277px;
 }
 
 .ds4 .back, .ds4 .start {
@@ -1188,8 +1188,8 @@ background-position: 0 -70px;
     position: absolute;
     width: 170px;
     height: 171px;
-    top: 159px;
-    left: 567px;
+    top: 209px;
+    left: 617px;
 }
 
 .ds4 .button {
@@ -1230,8 +1230,8 @@ background-position: 0 -70px;
     position: absolute;
     width: 361px;
     height: 105px;
-    top: 308px;
-    left: 228px;
+    top: 358px;
+    left: 278px;
 }
 
 .ds4 .stick {
@@ -1263,8 +1263,8 @@ background-position: 0 -70px;
     position: absolute;
     width: 125px;
     height: 126px;
-    top: 181px;
-    left: 92px;
+    top: 231px;
+    left: 142px;
 }
 
 .ds4 .face {
