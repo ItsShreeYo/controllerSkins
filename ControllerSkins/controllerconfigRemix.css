@@ -1062,7 +1062,7 @@ strong {
 }
 
 .ds4 .trigger {
-    width: 1799px;
+    width: 179px;
     height: 100%;
     background: url(https://imgur.com/ler3qPT.png);
     opacity: 0;
@@ -1078,18 +1078,18 @@ strong {
 }
 
 .ds4 .bumper {
-    width: 99px;
-    height: 23px;
-    background: url(https://imgur.com/ehnmrcS.png) no-repeat;
+    width: 159px;
+    height: 83px;
+    background: url(https://imgur.com/2MkHdGA.png) no-repeat;
     opacity: 0;
 }
 
 .ds4 .bumpers {
     position: absolute;
-    width: 588px;
-    height: 23px;
-    left: 159px;
-    top: 144px;
+    width: 648px;
+    height: 83px;
+    left: 129px;
+    top: 114px;
 }
 
 .ds4 .bumper.pressed {
