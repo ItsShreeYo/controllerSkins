@@ -1037,10 +1037,10 @@ strong {
 
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://imgur.com/5IGsUoF.png);
+    background: url(https://imgur.com/AYSP8Q2.png);
     object-fit: cover;
-    height: 598px;
-    width: 806px;
+    height: 699px;
+    width: 906px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
 }
@@ -1057,7 +1057,8 @@ strong {
     width: 588px;
     height: 90px;
     position: absolute;
-    left: 109px;
+    left: 159px;
+    top: 50px;
 }
 
 .ds4 .trigger {
