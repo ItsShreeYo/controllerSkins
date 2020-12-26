@@ -1234,25 +1234,25 @@ background-position: 0 -70px;
 
 .ds4 .sticks {
     position: absolute;
-    width: 361px;
-    height: 105px;
-    top: 358px;
-    left: 278px;
+    width: 441px;
+    height: 174px;
+    top: 318px;
+    left: 238px;
 }
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://imgur.com/YVAHwk4.png);
-    height: 94px;
-    width: 94px;
+    background: url(https://imgur.com/67fBj67.png);
+    height: 174px;
+    width: 174px;
 }
 
 .ds4 .stick.pressed.left {
-    background-position-x: -96px;
+    background-position-x: -174px;
 }
 
 .ds4 .stick.pressed.right {
-    background-position-x: -192px;
+    background-position-x: -348px;
 }
 
 .ds4 .stick.left {
