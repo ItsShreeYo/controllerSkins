@@ -1154,16 +1154,16 @@ background-position: 0 -70px;
 }*/
 .ds4 .arrows {
     position: absolute;
-    width: 352px;
-    height: 46px;
-    top: 192px;
-    left: 277px;
+    width: 413px;
+    height: 107px;
+    top: 161px;
+    left: 247px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://imgur.com/G4jQpoK.png);
-    width: 28px;
-    height: 46px;
+    background: url(https://imgur.com/iRz8kor.png);
+    width: 89px;
+    height: 107px;
     opacity: 0;
 }
 
@@ -1181,7 +1181,7 @@ background-position: 0 -70px;
 .ds4 .start {
     float: right;
     /* width: 28px; */
-    background-position: 28px 0;
+    background-position: 89px 0;
 }
 
 .ds4 .abxy {
