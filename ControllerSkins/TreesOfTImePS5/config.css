@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://imgur.com/J30yHRz.png);
+    background: url(https://imgur.com/PRlvZZ4.png);
     object-fit: cover;
     height: 699px;
     width: 906px;
@@ -27,7 +27,7 @@
 .ds4 .trigger {
     width: 179px;
     height: 100%;
-    background: url(https://imgur.com/bfDScFW.png);
+    background: url(https://imgur.com/buvLGAh.png);
     opacity: 0;
 }
 
@@ -43,7 +43,7 @@
 .ds4 .bumper {
     width: 159px;
     height: 83px;
-    background: url(https://imgur.com/zaxP1r0.png) no-repeat;
+    background: url(https://imgur.com/t8HCkh1.png) no-repeat;
     opacity: 0;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(https://imgur.com/0bb071d.png) no-repeat center;
+    background: url(https://imgur.com/EoiLX4g.png) no-repeat center;
 }
 
 .ds4 .meta {
@@ -91,7 +91,7 @@
 }
 
 .ds4 .meta.pressed {
-    background: url(https://imgur.com/I1ebGLM.png) no-repeat center;
+    background: url(https://imgur.com/6eqToF3.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -124,7 +124,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://imgur.com/eY8fyfG.png);
+    background: url(https://imgur.com/o4Tgjxq.png);
     width: 89px;
     height: 107px;
     opacity: 0;
@@ -160,7 +160,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 115px;
     height: 115px;
-    background: url(https://imgur.com/Kj0Mssy.png);
+    background: url(https://imgur.com/co44EuY.png);
 }
 
 .ds4 .button.pressed {
@@ -206,7 +206,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://imgur.com/Er12hEq.png);
+    background: url(https://imgur.com/2txP1HV.png);
     height: 174px;
     width: 174px;
 }
@@ -238,7 +238,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(https://imgur.com/EP3VPHb.png);
+    background: url(https://imgur.com/khQ7Eud.png);
     position: absolute;
 }
 
