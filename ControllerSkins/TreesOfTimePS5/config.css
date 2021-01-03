@@ -70,11 +70,11 @@
 }
 
 .ds4 .touchpad {
-    width: 322px;
-    height: 211px;
+    width: 384px;
+    height: 271px;
     position: absolute;
-    left: 292px;
-    top: 129px;
+    left: 261px;
+    top: 97px;
 }
 
 .ds4 .touchpad.pressed {
