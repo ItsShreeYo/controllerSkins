@@ -73,6 +73,7 @@
 .ds4 .touchpad {
     background: url(https://imgur.com/RisAZBQ.png) no-repeat center;
     opacity: 0;
+    transition: opacity 0ms ease 100ms;
     width: 322px;
     height: 211px;
     position: absolute;
@@ -94,6 +95,7 @@
 
 .ds4 .touchpad.pressed {
     background: url(https://imgur.com/RisAZBQ.png) no-repeat center;
+    transition: opacity 0ms ease 0ms;
     opacity: 1;
 }
 
