@@ -89,7 +89,7 @@
     height: 100%;
     left: 50%;
     top: 50%;
-    transition: transform 200ms linear;
+    transition: transform 100ms linear;
     transform: translateY(-50%) translateX(-50%) scale(0.625);
 }
 
@@ -101,7 +101,7 @@
 
 .ds4 .touchpad.pressed::after {
     content: "";
-    transform: translateY(-50%) translateX(-50%) scale(1);
+    transform: translateY(-50%) translateX(-50%) scale(.85);
 }
 
 .ds4 .meta {
