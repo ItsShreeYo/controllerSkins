@@ -80,12 +80,7 @@
     top: 142px;
 }
 
-.ds4 .touchpad.pressed {
-    background: url(https://imgur.com/RisAZBQ.png) no-repeat center;
-    opacity: 1;
-}
-
-.ds4 .touchpad.pressed::after {
+.ds4 .touchpad::after {
     content: "";
     background: url(https://imgur.com/C3wrBVQ.png) no-repeat center;
     position: absolute;
@@ -93,7 +88,18 @@
     height: 100%;
     left: 50%;
     top: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    transition: transform 200ms linear;
+    transform: translateY(-50%) translateX(-50%) scale(0.625);
+}
+
+.ds4 .touchpad.pressed {
+    background: url(https://imgur.com/RisAZBQ.png) no-repeat center;
+    opacity: 1;
+}
+
+.ds4 .touchpad.pressed::after {
+    content: "";
+    transform: translateY(-50%) translateX(-50%) scale(1);
 }
 
 .ds4 .meta {
