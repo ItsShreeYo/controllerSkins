@@ -142,7 +142,7 @@
     position: absolute;
     background: url(https://imgur.com/XZu0kmL.png);
     width: 48px;
-    height: 48px;
+    height: 50px;
 }
 
 .xbox .button.pressed {
@@ -185,7 +185,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(https://imgur.com/PabdrsN.png);
+    background: url(https://imgur.com/zz6nPTf.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
