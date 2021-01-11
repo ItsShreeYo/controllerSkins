@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+
+body {
+  /* background: #cecece; */
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  color: #3F000E;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  font-style: italic;
+  padding-left: 35px;
+  margin: 0px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-left: 35px;
+  margin: 0px;
+  max-width: 60vw;
+}
+
+.shreesControllerSVG {
+  fill: #3F000E;
+}
+
+#landing {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/landingBackground.png");
+  background-size: cover;
+  background-position: 100% 100%;
+  box-shadow: 0px 0px 15px black;
+}
+
+#landingText {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  transform: translateY(-50%);
+  height: 100px;
+}
+
+#introSection {
+  position: relative;
+  height: 46em;
+  width: 100vw;
+}
+
+#circlesImage {
+  position: absolute;
+  height: 40em;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 56%;
+}
+
+#introText {
+  position: absolute;
+  padding: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 64%;
+  box-sizing: border-box;
+}
+
+#introWelcome {
+  display: inline-block;
+}
+
+#introCopy {
+  display: inline-block;
+}
+
+.scrollBanner {
+  height: 300px;
+  width: calc(2881px + 100vw);
+  margin: 50px 0px;
+}
+
+#bannerFlat {
+  background: url("../img/flatBanner.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: 0px 0px;
+  animation: bannerMoveLeft 30s linear infinite;
+  -webkit-animation: bannerMoveLeft 30s linear infinite;
+  -moz-animation: bannerMoveLeft 30s linear infinite;
+  -o-animation: bannerMoveLeft 30s linear infinite;
+}
+
+#bannerShaded {
+  background: url("../img/shadedBanner.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: 0px 0px;
+  animation: bannerMoveRight 30s linear infinite;
+  -webkit-animation: bannerMoveRight 30s linear infinite;
+  -moz-animation: bannerMoveRight 30s linear infinite;
+  -o-animation: bannerMoveRight 30s linear infinite;
+}
+
+@keyframes bannerMoveLeft {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -2881px 0px;
+  }
+}
+
+@-o-keyframes bannerMoveLeft {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -2881px 0px;
+  }
+}
+
+@-webkit-keyframes bannerMoveLeft {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -2881px 0px;
+  }
+}
+
+@-moz-keyframes bannerMoveLeft {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -2881px 0px;
+  }
+}
+
+@keyframes bannerMoveRight {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 2881px 0px;
+  }
+}
+
+@-o-keyframes bannerMoveRight {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 2881px 0px;
+  }
+}
+
+@-webkit-keyframes bannerMoveRight {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 2881px 0px;
+  }
+}
+
+@-moz-keyframes bannerMoveRight {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 2881px 0px;
+  }
+}
+
+@media only screen and (max-width: 1188px) {
+  #landingText {
+    top: 30%;
+  }
+}
