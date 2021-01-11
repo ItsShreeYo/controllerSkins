@@ -20,10 +20,10 @@
 }
 
 .xbox .triggers {
-    width: 446px;
+    width: 448px;
     height: 121px;
     position: absolute;
-    left: 152px;
+    left: 151px;
 }
 
 .xbox .trigger {
@@ -104,10 +104,10 @@
 
 .xbox .arrows {
     position: absolute;
-    width: 141px;
+    width: 143px;
     height: 33px;
     top: 264px;
-    left: 306px;
+    left: 305px;
 }
 
 .xbox .back, .xbox .start {
