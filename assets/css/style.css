@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
   /* background: #cecece; */
@@ -9,25 +8,25 @@ body {
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
-  color: #3F000E;
 }
 
 h1 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
-  font-size: 3em;
-  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  font-size: 3.9em;
   padding-left: 35px;
   margin: 0px;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
   padding-left: 35px;
   margin: 0px;
   max-width: 60vw;
+}
+
+a {
+  /* text-decoration: none; */
 }
 
 .shreesControllerSVG {
@@ -68,11 +67,11 @@ p {
 
 #introText {
   position: absolute;
-  padding: 100px;
+  padding: 100px 180px 100px 40px;
   top: 50%;
   transform: translateY(-50%);
   right: 0;
-  width: 64%;
+  width: 56%;
   box-sizing: border-box;
 }
 
@@ -85,9 +84,92 @@ p {
 }
 
 .scrollBanner {
+  position: relative;
   height: 300px;
   width: calc(2881px + 100vw);
-  margin: 50px 0px;
+  box-shadow: 0px 0px 15px black;
+}
+
+.bannerTextHolderLeft {
+  display: inline-block;
+  position: relative;
+  width: 35vw;
+  height: 100%;
+  background: white;
+  padding: 20px 0px 20px 100px;
+  box-sizing: border-box;
+}
+
+.bannerTextHolderRight {
+  display: inline-block;
+  position: relative;
+  width: 35vw;
+  height: 100%;
+  background: white;
+  padding: 20px 100px 20px 0px;
+  box-sizing: border-box;
+}
+
+.bannerText {
+  position: absolute;
+  width: calc(100% - 100px);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bannerTitle, .bannerCopy {
+  padding: 0px;
+  margin: 0px;
+}
+
+.fadeLeft {
+  display: inline-block;
+  height: 100%;
+  width: 15vw;
+  background: linear-gradient(
+    to right,
+    hsl(0, 0%, 100%) 0%,
+    hsla(0, 0%, 100%, 0.987) 18%,
+    hsla(0, 0%, 100%, 0.951) 33%,
+    hsla(0, 0%, 100%, 0.896) 45.3%,
+    hsla(0, 0%, 100%, 0.825) 55.3%,
+    hsla(0, 0%, 100%, 0.741) 63.3%,
+    hsla(0, 0%, 100%, 0.648) 69.5%,
+    hsla(0, 0%, 100%, 0.55) 74.3%,
+    hsla(0, 0%, 100%, 0.45) 78%,
+    hsla(0, 0%, 100%, 0.352) 80.9%,
+    hsla(0, 0%, 100%, 0.259) 83.4%,
+    hsla(0, 0%, 100%, 0.175) 85.7%,
+    hsla(0, 0%, 100%, 0.104) 88.3%,
+    hsla(0, 0%, 100%, 0.049) 91.3%,
+    hsla(0, 0%, 100%, 0.013) 95.1%,
+    hsla(0, 0%, 100%, 0) 100%
+  );
+}
+
+.fadeRight {
+  display: inline-block;
+  height: 100%;
+  width: 15vw;
+  background: linear-gradient(
+    to left,
+    hsl(0, 0%, 100%) 0%,
+    hsla(0, 0%, 100%, 0.987) 18%,
+    hsla(0, 0%, 100%, 0.951) 33%,
+    hsla(0, 0%, 100%, 0.896) 45.3%,
+    hsla(0, 0%, 100%, 0.825) 55.3%,
+    hsla(0, 0%, 100%, 0.741) 63.3%,
+    hsla(0, 0%, 100%, 0.648) 69.5%,
+    hsla(0, 0%, 100%, 0.55) 74.3%,
+    hsla(0, 0%, 100%, 0.45) 78%,
+    hsla(0, 0%, 100%, 0.352) 80.9%,
+    hsla(0, 0%, 100%, 0.259) 83.4%,
+    hsla(0, 0%, 100%, 0.175) 85.7%,
+    hsla(0, 0%, 100%, 0.104) 88.3%,
+    hsla(0, 0%, 100%, 0.049) 91.3%,
+    hsla(0, 0%, 100%, 0.013) 95.1%,
+    hsla(0, 0%, 100%, 0) 100%
+  );
 }
 
 #bannerFlat {
@@ -111,6 +193,79 @@ p {
   -moz-animation: bannerMoveRight 30s linear infinite;
   -o-animation: bannerMoveRight 30s linear infinite;
 }
+
+.bannerShadedOffset {
+  width: 50vw;
+  height: 100;
+  display: inline-block;
+}
+
+.shadingSection {
+  position: relative;
+  width: 100vw;
+  height: 800px;
+  /* background: rgb(118, 165, 175); */
+  z-index: -5;
+}
+
+.shadingSection > img {
+  position: absolute;
+  left: 20vw;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#shadingText {
+  position: absolute;
+  padding: 100px 180px 100px 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 56%;
+  box-sizing: border-box;
+}
+
+#shadingWelcome {
+  display: inline-block;
+}
+
+#shadingCopy {
+  display: inline-block;
+}
+
+.tDSection {
+  position: relative;
+  height: 46em;
+  width: 100vw;
+}
+
+#adidasImage {
+  position: absolute;
+  height: 65em;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  left: 56%;
+  z-index: -6;
+}
+
+#tDText {
+  position: absolute;
+  padding: 100px 40px 100px 180px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 56%;
+  box-sizing: border-box;
+}
+
+#tDWelcome {
+  display: inline-block;
+}
+
+#tDCopy {
+  display: inline-block;
+}
+
 
 @keyframes bannerMoveLeft {
   0% {
@@ -181,6 +336,70 @@ p {
   }
   100% {
     background-position: 2881px 0px;
+  }
+}
+
+@media only screen and (max-width: 1625px) {
+  .bannerTextHolderLeft {
+    width: 40vw;
+  }
+
+  .bannerTextHolderRight {
+    width: 40vw;
+  }
+
+  .fadeLeft {
+    width: 10vw;
+  }
+
+  .fadeRight {
+    width: 10vw;
+  }
+}
+
+@media only screen and (max-width: 1422px) {
+  .bannerTextHolderLeft {
+    width: 50vw;
+  }
+
+  .bannerTextHolderRight {
+    width: 50vw;
+  }
+
+  .fadeLeft {
+    width: 10vw;
+  }
+
+  .fadeRight {
+    width: 10vw;
+  }
+
+  .bannerShadedOffset {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 1136px) {
+  .bannerTextHolderLeft {
+    width: 55vw;
+    padding: 20px 0px 20px 50px;
+  }
+
+  .bannerTextHolderRight {
+    width: 55vw;
+    padding: 20px 50px 20px 0px;
+  }
+
+  .fadeLeft {
+    width: 10vw;
+  }
+
+  .fadeRight {
+    width: 10vw;
+  }
+
+  .bannerShadedOffset {
+    width: 35vw;
   }
 }
 
