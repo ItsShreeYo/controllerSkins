@@ -244,13 +244,13 @@ a {
   height: 65em;
   top: 50%;
   transform: translateY(-50%) translateX(-50%);
-  left: 56%;
+  left: 85%;
   z-index: -6;
 }
 
 #tDText {
   position: absolute;
-  padding: 100px 40px 100px 180px;
+  padding: 100px 40px 100px 100px;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
