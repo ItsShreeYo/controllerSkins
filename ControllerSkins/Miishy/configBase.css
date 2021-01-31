@@ -1,12 +1,12 @@
 .controller.ds4 {
-    background: url(https://imgur.com/utP2Y7k.png);
+    background: url(https://imgur.com/d5cFsai.png);
     object-fit: cover;
     height: 699px;
     width: 906px;
 }
 
 .ds4.disconnected {
-    background: url(https://imgur.com/utP2Y7k.png);
+    background: url(https://imgur.com/d5cFsai.png);
 }
 
 .ds4.disconnected div {
@@ -203,7 +203,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://imgur.com/hWimz3i.png);
+    background: url(https://imgur.com/llUhwCB.png);
     height: 174px;
     width: 174px;
 }
