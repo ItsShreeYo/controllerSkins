@@ -1,12 +1,12 @@
 .controller.ds4 {
-    background: url(https://imgur.com/eKXNooH.png);
+    background: url(https://imgur.com/a6Ul1bL.png);
     object-fit: cover;
     height: 699px;
     width: 906px;
 }
 
 .ds4.disconnected {
-    background: url(https://imgur.com/eKXNooH.png);
+    background: url(https://imgur.com/a6Ul1bL.png);
 }
 
 .ds4.disconnected div {
@@ -157,7 +157,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 115px;
     height: 115px;
-    background: url(https://imgur.com/4b0MXCj.png);
+    background: url(https://imgur.com/zxlDXHa.png);
 }
 
 .ds4 .button.pressed {
